@@ -9,6 +9,7 @@
     height: 400px;
     background-color: #0e84f2;
     position: absolute;
+    width: 100%;
     z-index: -1;
 }
 
@@ -70,7 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    gap: 30px;
 }
 
 .container-item{
@@ -89,6 +90,8 @@
 @media(max-width :1200px){
     .container-box{
         flex-direction: column;
+        width: fit-content;
+        align-items: center;
     }
     .section h1{
         font-size: 25px;
